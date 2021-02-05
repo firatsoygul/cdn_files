@@ -1,0 +1,8 @@
+# Reverse proxy anything after "/proxy/".
+[[redirects]]
+from = "/proxy/*"
+to = ":splat"
+status = 200
+headers = {Access-Control-Allow-Origin = "https://firat.netlify.app"}
+
+
