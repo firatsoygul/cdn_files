@@ -1,8 +1,12 @@
-# Reverse proxy anything after "/proxy/".
+# Google 1
 [[redirects]]
-from = "/yxtm/*"
-to = "https://mc.yandex.ru/metrika/tag.js:splat"
+from = "/gtm/*"
+to = "https://www.googletagmanager.com/gtag/js?id=UA-48136097-6:splat"
 status = 200
 headers = {Access-Control-Allow-Origin = "https://firat.netlify.app"}
-
-
+# Google 2
+[[redirects]]
+from = "/gtm2/*"
+to = "https://www.googletagmanager.com/gtag/js?id=G-2S7HXDD572:splat"
+status = 200
+headers = {Access-Control-Allow-Origin = "https://firat.netlify.app"}
