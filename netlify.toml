@@ -1,7 +1,7 @@
 # Reverse proxy anything after "/proxy/".
 [[redirects]]
-from = "/proxy/*"
-to = ":splat"
+from = "/yxtm/*"
+to = "https://mc.yandex.ru/metrika/tag.js:splat"
 status = 200
 headers = {Access-Control-Allow-Origin = "https://firat.netlify.app"}
 
